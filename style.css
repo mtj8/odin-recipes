@@ -1,0 +1,31 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+h2 {
+    color: darkblue;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+li#lumpia,
+li#lumpia a {
+    color: orange;
+}
+
+li#spaghetti,
+li#spaghetti a {
+    color: orangered;
+}
+
+li a {
+    font-size: 18px;
+}
