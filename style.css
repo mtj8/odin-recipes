@@ -1,5 +1,10 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(219, 220, 222);
 }
 
 h1 {
@@ -8,6 +13,8 @@ h1 {
     text-align: center;
     font-weight: 800;
     font-size: 36px;
+    margin: 20px auto;
+    width: 300px;
 }
 
 h2 {
@@ -16,12 +23,31 @@ h2 {
     font-size: 30px;
 }
 
-li#lumpia,
+div.list-container {
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    background-color: antiquewhite;
+    border: 0.5px dotted white;
+    display: inline-block;
+    width: fit-content;
+    padding: 4px 12px;
+    margin: 8px 8px;
+}
+
+
 li#lumpia a {
     color: orange;
 }
 
-li#spaghetti,
 li#spaghetti a {
     color: orangered;
 }
